@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TfsProperties", "TfsProperties\TfsProperties.csproj", "{72798AAC-C0DC-4AC4-9F6F-1AE85F9A3F7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Settings", ".Settings", "{E05A510D-348E-4C03-91E5-237E303D8E55}"
+	ProjectSection(SolutionItems) = preProject
+		AIT.CodeAnalysisDictionary.xml = AIT.CodeAnalysisDictionary.xml
+		AIT.ruleset = AIT.ruleset
+		Dummy.snk = Dummy.snk
+		Settings.StyleCop = Settings.StyleCop
+		TfsProperties.sln.DotSettings = TfsProperties.sln.DotSettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyConsole", "ManyConsole\ManyConsole.csproj", "{90DB8534-C471-47CF-999D-BE7A86070979}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72798AAC-C0DC-4AC4-9F6F-1AE85F9A3F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72798AAC-C0DC-4AC4-9F6F-1AE85F9A3F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72798AAC-C0DC-4AC4-9F6F-1AE85F9A3F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72798AAC-C0DC-4AC4-9F6F-1AE85F9A3F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90DB8534-C471-47CF-999D-BE7A86070979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90DB8534-C471-47CF-999D-BE7A86070979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90DB8534-C471-47CF-999D-BE7A86070979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90DB8534-C471-47CF-999D-BE7A86070979}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.aitag.com/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TfsProperties\\TfsProperties.csproj
+		SccProjectName1 = TfsProperties
+		SccLocalPath1 = TfsProperties
+		SccProjectUniqueName2 = ManyConsole\\ManyConsole.csproj
+		SccProjectName2 = ManyConsole
+		SccLocalPath2 = ManyConsole
+	EndGlobalSection
+EndGlobal
